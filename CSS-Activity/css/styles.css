@@ -1,0 +1,26 @@
+.top-div {
+  background-image: url("../assets/rickandmorty.jpg");
+  background-size: 500px 500px;
+  background-repeat: no-repeat;
+  width: 500px;
+  height: 500px;
+  text-align: center;
+  color: white;
+}
+
+.bottom-div {
+  background-color: green;
+  width: 500px;
+  height: 500px;
+  border-top: 1px solid;
+}
+
+#paragraph-one {
+  color: blue;
+  font-size: 18px;
+}
+
+#paragraph-two {
+  color: yellow;
+  font-size: 18px;
+}
