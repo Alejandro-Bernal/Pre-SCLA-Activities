@@ -1,0 +1,83 @@
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: lightblue;
+    padding: 100px;
+}
+
+.pyramid {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.pyramid-step {
+    background-color: #008dde;
+    margin-bottom: 5px;
+}
+
+.coach-section {
+    width: 200px;
+}
+
+.peer-section {
+    width: 300px;
+}
+
+.duck-section {
+    width: 450px;
+}
+
+.step-text {
+    text-align: center;
+    color: white;
+}
+
+.display-content {
+    margin-top: 25px;
+}
+
+.hidden-coach {
+    display: none;
+}
+
+.hidden-peer {
+    display: none;
+}
+
+.hidden-duck {
+    display: none;
+}
+
+.pyramid-step.coach-section:hover .hidden-coach {
+    display: block;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    background-color: green;
+}
+
+.pyramid-step.peer-section:hover .hidden-peer {
+    display: block;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    background-color: green;
+}
+
+.pyramid-step.duck-section:hover .hidden-duck {
+    display: block;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    background-image: url("https://cdn.pixabay.com/photo/2021/04/09/10/10/duck-6163981_1280.jpg");
+    background-size: cover;
+}
+
+.text-background {
+    background-color: #008ddee4;
+    padding: 10px;
+}
